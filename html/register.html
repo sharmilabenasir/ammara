@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <title>Coffee Shop</title>
+  </head>
+  <body style="background-color:#f7f7f7">
+    <nav class="navbar navbar-expand-sm">
+      <a href="index.html">
+  <span class="navbar-text fa-4x text-center " style="font-family: 'Lobster'; text-align: 'center'">
+    Coffee Shop
+  </span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+  <ul class="navbar-nav ml-auto ">
+    <li class="nav-item">
+      <a class="nav-link text-light " href="#">Our Menu</a>
+    </li>
+
+      <!-- Dropdown -->
+    <li class="nav-item dropdown ">
+      <a class="nav-link dropdown-toggle text-light" href="#" id="navbardrop" data-toggle="dropdown">
+        Order Online
+      </a>
+      <div class="dropdown-menu ">
+        <a class="dropdown-item" href="#">Delivery</a>
+        <a class="dropdown-item" href="#">Click and Collect</a>
+      </div>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link text-light" href="#">Book a Table</a>
+    </li>
+
+    <ul class="nav navbar-nav ml-auto">
+    <li class="nav-item">
+      <a class="nav-link text-light" href="login.html"><span class="fas fa-sign-in-alt"></span> Login</a>
+    </li>
+  </ul>
+  </ul></div>
+</nav>
+
+  <div class="signup-form"style="margin-left:35%">
+    <form action="/examples/actions/confirmation.php" method="post">
+		<h2>Sign Up</h2>
+		<p>Please fill in this form to create an account!</p>
+		<hr>
+    <div class="form-group">
+  <div class="input-group">
+    <input type="text" class="form-control" name="firstname" placeholder="Firstname" required="required">
+    <input type="text" class="form-control" name="lastname" placeholder="Lastname" required="required">
+  </div>
+    </div>
+    <div class="form-group">
+  <div class="input-group">
+    <input type="email" class="form-control" name="email" placeholder="Email Address" required="required">
+  </div>
+    </div>
+        <div class="form-group">
+			<div class="input-group">
+				<input type="text" class="form-control" name="username" placeholder="Username" required="required">
+			</div>
+        </div>
+		<div class="form-group">
+			<div class="input-group">
+				<input type="password" class="form-control" name="password" placeholder="Password" minlength="8" required="required">
+			</div>
+    </div>
+    <div class="form-group">
+    <label for="example-date-input" class="col-7 col-form-label"><b>Date of Birth</b></label>
+    <div class="col-12">
+      <input class="form-control" type="date" value="1900-01-01" id="example-date-input">
+    </div>
+  </div>
+
+		<div class="form-group">
+            <button type="submit" class="btn btn-primary btn-lg">Sign Up</button>
+        </div>
+    </form>
+	<div class="text-center">Already have an account? <div class="btn btn-primary"><a href="login.html">Login here</a></div></div>
+</div>
+
+
+<div class="container"></div>
+<footer>
+  <!-- Footer main -->
+  <section class="ft-main">
+    <div class="ft-main-item">
+      <h2 class="ft-title">About us</h2>
+      <ul>
+        <li><a href="#">Our coffees</a></li>
+        <li><a href="#">Our story</a></li>
+        <li><a href="#">Policies and reports</a></li>
+        <li><a href="#">Download our app</a></li>
+        <li><a href="#">Store updates & safety</a></li>
+      </ul>
+    </div>
+    <div class="ft-main-item">
+      <h2 class="ft-title">Dietary information</h2>
+      <ul>
+        <li><a href="#">Nutrition & allergens</a></li>
+        <li><a href="#">Store dietary information</a></li>
+        <li><a href="#">Express dietary information</a></li>
+        <li><a href="#">home dietary information</a></li>
+        <li><a href="#">Branded products dietary information</a></li>
+      </ul>
+    </div>
+
+    <div class="ft-main-item">
+      <h2 class="ft-title">Gifting & merchandise</h2>
+      <ul>
+        <li><a href="#">Gift cards</a></li>
+        <li><a href="#">Gift cards for business</a></li>
+        <li><a href="#">Merchandise</a></li>
+      </ul>
+    </div>
+    <div class="ft-main-item">
+      <h2 class="ft-title">Contact us</h2>
+      <ul>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Careers</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer social -->
+  <section class="ft-social">
+    <ul class="ft-social-list">
+      <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+    </ul>
+  </section>
+
+  <!-- Footer legal -->
+  <section class="ft-legal">
+    <ul class="ft-legal-list">
+      <li><a href="#">Terms &amp; Conditions</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+      <li>&copy; 2022 by Coffee Shop, LLC</li>
+    </ul>
+  </section>
+</footer>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

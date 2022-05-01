@@ -1,0 +1,200 @@
+/* import fonts  */
+@font-face {
+    font-family: 'primarybold';
+    src: url('../fonts/GraphikWeb-Bold.eot');
+    src: url('../fonts/GraphikWeb-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/GraphikWeb-Bold.woff2') format('woff2'), url('../fonts/GraphikWeb-Bold.woff') format('woff'), url('../fonts/GraphikWeb-Bold.ttf') format('truetype'), url('../fonts/GraphikWeb-Bold.svg#GraphikWeb-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'primarysemi';
+    src: url('../fonts/GraphikWeb-Semibold.eot');
+    src: url('../fonts/GraphikWeb-Semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/GraphikWeb-Semibold.woff2') format('woff2'), url('../fonts/GraphikWeb-Semibold.woff') format('woff'), url('../fonts/GraphikWeb-Semibold.ttf') format('truetype'), url('../fonts/GraphikWeb-Semibold.svg#GraphikWeb-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'primaryregular';
+    src: url('../fonts/GraphikWeb-Regular.eot');
+    src: url('../fonts/GraphikWeb-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/GraphikWeb-Regular.woff2') format('woff2'), url('../fonts/GraphikWeb-Regular.woff') format('woff'), url('../fonts/GraphikWeb-Regular.ttf') format('truetype'), url('../fonts/GraphikWeb-Regular.svg#GraphikWeb-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* no decoration */
+*{
+    text-decoration: none;
+}
+/* logo */
+.logo img {
+    max-width: 150px;
+}
+/* bg */
+.bg-pink{
+    background-color: #FFFCF9;
+}
+.bg-brown{
+    background-color: #542304;
+}
+.bg-blue{
+    background-color: #C0E3F7;
+}
+.bg-sandal{
+    background-color: #fff3ca;
+}
+.bg-peach{
+    background-color: blanchedalmond;
+}
+/* text shadow */
+.tshadow-grey{
+    text-shadow: 2px 2px 2px #9f9a9a;
+}
+/*shade*/
+.shade-4{
+    position: relative;
+    box-shadow: 0 4px 20px 0 rgb(49 67 81 / 7%);
+}
+/* font-size */
+.fs-2{
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+.fs-3{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+.fs-4{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+/* purple button */
+.btn-purple *{
+    color: #fff;
+}
+.btn-sabdal a{
+    color: #542304;
+}
+.btn-cf{
+    padding: 15px 20px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+}
+.btn-purple{
+    background-color:#6D1F37;
+}
+.btn-sabdal{
+    background-color: #FDBA62;
+}
+/* text-color */
+.text-sandal{
+    color:#FDBA62;
+}
+.text-brown{
+    color: #542304;
+}
+/* font family */
+body{
+    font-family:'primaryregular';
+    font-size: 14px;
+}
+.primarysemi{font-family: "primarysemi";}
+.primarybold{font-family: "primarybold";}
+/* position middle */
+.position-middle{
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* banner */
+.banner-desc{
+    max-width: 35%;
+    left: 10%;
+}
+/* bg img */
+.bg-white-pattern{
+    background-image: url("/images/pattern.png");
+    background-size: 100%;
+}
+/* menu */
+.menu .nav-link{
+    position: relative;
+}
+.menu .nav-link.active:after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: #FDBA62;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.menu .nav-link:before{
+    content: '';
+    width: 1px;
+    height: 72px;
+    background-color: #fdba621c;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -47px;
+}
+.menu .nav-item:last-child .nav-link::before{
+    width: 0;
+}
+/* select, date, text */
+label{
+    width: 39%;
+    vertical-align: top;
+    font-family: "primarysemi";
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #646464;
+}
+select,input,textarea {
+    width: 60%;
+    padding: 10px;
+    border: 2px solid brown;
+    font-weight: bold;
+    vertical-align: top;
+}
+/* submit */
+.final-btn {
+    width: auto;
+    margin: auto;
+    display: table;
+    color: #fff;
+    min-width: 150px;
+}
+/* banner img */
+.banner-img{
+    width: 100%;
+    height: 500px;
+    object-position: center;
+    object-fit: cover;
+}
+/* navs */
+.nav-tabs{
+    display: table;
+    margin: auto;
+    border: none;
+}
+li.nav-item {
+    display: inline-block;
+}
+.nav-link{
+    font-size: 16px;
+    font-family: "primarysemi";
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border:none;
+    border-bottom: 2px solid #fdba62;
+    font-weight: bold;
+    
+    
+}

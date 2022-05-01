@@ -1,0 +1,102 @@
+<html>
+
+<head>
+
+<link href="./response.css" rel="stylesheet" type="text/css" />
+
+<title>Website Prototype Add Products page</title>
+
+</head>
+
+<body>
+
+<div id="pagewrap">
+
+<header>
+
+<h1>Welcome to the product management page</h1>
+
+</header>
+
+<h2> Enter Product details to add</h2>
+
+ <form action="insertproducts.php" method="POST">
+  <table>
+   <tr>
+    <td>Product Name :</td>
+    <td><input type="text" name="Name" required></td>
+   </tr>
+   <tr>
+    <td>Product Price :</td>
+    <td><input type="float" name="Price" required></td>
+   </tr>
+   <tr>
+    <td>Product Description :</td>
+    <td><input type="text" name="Description" required></td>
+   </tr>
+   <tr>
+    <td>Product Availability :</td>
+    <td><input type="text" name="Availability" required></td>
+   </tr> 
+   <tr>
+    <td><input type="submit" value="Submit" name="submit"></td>
+   </tr>
+  </table>
+ </form>
+ 
+<h2>Enter Product name to remove</h2>
+ 
+ <form action="deleteproduct.php" method="POST">
+  <table>
+   <tr>
+    <td>Product Name :</td>
+    <td><input type="text" name="Name" required></td>
+   </tr>
+   <tr>
+    <td><input type="submit" value="Submit" name="submit"></td>
+   </tr>
+  </table> 
+ </form>
+ 
+<h2> Enter Product details to Update</h2>
+
+ <form action="updateproduct.php" method="POST">
+  <table>
+   <tr>
+    <td>Product Name :</td>
+    <td><input type="text" name="Name" required></td>
+   </tr>
+   <tr>
+    <td>Product Price :</td>
+    <td><input type="float" name="Price" ></td>
+   </tr>
+   <tr>
+    <td>Product Description :</td>
+    <td><input type="text" name="Description" ></td>
+   </tr>
+   <tr>
+    <td>Product Availability :</td>
+    <td><input type="text" name="Availability" ></td>
+   </tr> 
+   <tr>
+    <td><input type="submit" value="Submit" name="submit"></td>
+   </tr>
+  </table>
+ </form>
+
+<section id="content">
+
+<p>Work in progress </p>
+
+</section>
+
+
+<footer>
+
+</footer>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+body{
+  background-color:#f7f7f7;
+}
+
+.navbar{
+  height:85px;
+  font-size: 19px;
+}
+
+.navbar-brand{
+  font-size: 75px;
+  font-family: 'Lobster';
+}
+
+.is-hidden {
+  opacity: 0;
+  transition: transform 0.4s, opacity 0.2s;
+}
+.navbar-hide {
+  pointer-events: none;
+  opacity: 0;
+}
+
+h1{
+	color:#21E6C1;
+	font-size: 30px;
+	text-align: center;
+	padding:3% 0%;
+
+}
+
+.ci1{
+	height: 700px;
+}
+
+.main-caro-img{
+background-color: #000000;
+height:700px;
+}
+
+.main-caro-img img{
+width:100%;
+height:100%;
+}
+
+
+
+.containerimg{
+  margin: 4rem;
+}
+.display-3{
+  color: #F15353;
+  font-weight:500;
+  text-align: center;
+  font-size: 3.5rem;
+}
+.rowimg img{
+  border-radius: 20px;
+}
+.row{
+  margin-bottom: 3rem;
+}
+
+
+
+
+
+/* Generic styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer {
+  background-image: linear-gradient(to bottom, #f34141, #ec3a39, #e53232, #de2b2a, #d72222);
+  color: #fff;
+  line-height: 1.5;
+}
+footer a {
+  text-decoration: none;
+  color: #eee;
+}
+a:hover {
+  text-decoration: underline;
+}
+.ft-title {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 1.375rem;
+  padding-bottom: 0.625rem;
+}
+/* Sticks footer to bottom */
+body {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  flex: 1;
+}
+/* Footer main */
+.ft-main {
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media only screen and (min-width: 29.8125rem /* 477px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+@media only screen and (min-width: 77.5rem /* 1240px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+.ft-main-item {
+  padding: 1.25rem;
+  min-width: 12.5rem;
+}
+
+/* Footer social */
+.ft-social {
+  padding: 0 1.875rem 1.25rem;
+}
+.ft-social-list {
+  display: flex;
+  justify-content: center;
+}
+.ft-social-list li {
+  margin: 0.5rem;
+  font-size: 1.25rem;
+}
+/* Footer legal */
+.ft-legal {
+  padding: 0.9375rem 1.875rem;
+  background-image: linear-gradient(to bottom, #b72525, #af2121, #a61d1c, #9e1818, #961414);
+}
+.ft-legal-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ft-legal-list li {
+  margin: 0.125rem 0.625rem;
+  white-space: nowrap;
+}
+/* one before the last child */
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;
+}

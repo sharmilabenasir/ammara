@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Our Menu</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/custom.css">
+        <!-- <script type="text/javascript">
+            $('#drinks option').each(function() {
+                var coffeeSelected  = $(this).attr("value");
+                alert(coffeeSelected);
+                $(this).change(function() {
+                    if($(this).is(':selected')){
+                    $('.items[id="'+ coffeeSelected +'"]').addClass('active');
+                    $('.items[id!="'+ coffeeSelected +'"]').addClass('inactive');
+                    $('.list-desc > div.active').removeClass('inactive');
+                }
+                else{
+                    $('.items[id ="'+ coffeeSelected +'"]').removeClass('active');
+                    $('.items[id ="'+ coffeeSelected +'"]').addClass('inactive');
+                }
+                })
+            });
+        </script> -->
+    </head>
+    <body id="menu">
+        <header class="shade-4">
+            <nav class="navbar navbar-expand-lg bg-brown">
+                <div class="container-fluid menu">
+                    <div class="navbar-brand logo">
+                        <a href="index.html">
+                            <img src="/images/logo.png" alt="logo"/>
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item me-5 ms-5">
+                        <a class="nav-link  text-light primarysemi active" aria-current="page" href="menu.html">Our Menu</a>
+                        </li>
+                        <li class="nav-item me-5 ms-5">
+                        <a class="nav-link text-light primarysemi" href="order.html">Order Online</a>
+                        </li>
+                        <li class="nav-item me-5 ms-5">
+                        <a class="nav-link text-light primarysemi" href="booking.html">Book a Table</a>
+                        </li>
+                        <li class="nav-item me-5 ms-5">
+                        <a class="nav-link text-light primarysemi" href="login.html">Sign In</a>
+                        </li>
+                        <li class="nav-item me-5">
+                        <a class="nav-link text-light primarysemi" href="register.html">Sign Up</a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="banner">
+            <div class="fluid-container">
+                <div class="banner-img-content position-relative">
+                    <img src="/images/coffee type.jpg" alt="home" class="img-fluid banner-img">
+                    <div class="banner-desc position-absolute position-middle text-light">
+                        <h1 class="primarybold mb-5 tshadow-grey" >Our Menu</h1>
+                        <p class="fs-2 tshadow-grey">Our menu’s full of the good stuff. Whatever your diet or preferences, there’s enough choice for everyone.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content bg-white-pattern">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-2 col-8 mt-5 mb-5 bg-white p-3 shade-4">
+                        <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="tab" href="#drinks">Drinks</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#food">Food</a>
+                    </li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div id="drinks" class="container tab-pane active">
+                        <form>
+                            <div class="mb-3 mt-3">
+                                <div class="list-desc">
+                                    <div class="items" id="coffee">
+                                        <h2 class="text-center primarysemi text-brown mt-5 mb-5">Coffee</h2>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <div class="drink-img">
+                                                        <img src="/images/Lattee.jpg" alt="cof1" class="w-100"/>
+                                                    </div>
+                                                    <div class="drink-desc">
+                                                        <h6 class="text-center">Latte</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="drink-img">
+                                                        <img src="/images/cappucino.jpg" alt="cof2" class="w-100"/>
+                                                    </div>
+                                                    <div class="drink-desc">
+                                                        <h6 class="text-center">Cappuccino</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="drink-img">
+                                                        <img src="/images/Americano.jpg" alt="cof3" class="w-100"/>
+                                                    </div>
+                                                    <div class="drink-desc">
+                                                        <h6 class="text-center">Americano</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="drink-img">
+                                                        <img src="/images/Mocha.jpg" alt="cof1" class="w-100"/>
+                                                    </div>
+                                                    <div class="drink-desc">
+                                                        <h6 class="text-center">Mocha</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="drink-img">
+                                                        <img src="/images/espresso.webp" alt="cof1" class="w-100"/>
+                                                    </div>
+                                                    <div class="drink-desc">
+                                                        <h6 class="text-center">Espresso</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="items" id="tea">
+                                        <h2 class="text-center primarysemi text-brown mt-5 mb-5">Teas &amp; Infusions</h2>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <div class="drink-img">
+                                                        <img src="/images/greentea1.jpg" alt="cof1" class="w-100"/>
+                                                    </div>
+                                                    <div class="drink-desc">
+                                                        <h6 class="text-center">Green Tea</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="drink-img">
+                                                        <img src="/images/EnglishTea.jpg" alt="cof2" class="w-100"/>
+                                                    </div>
+                                                    <div class="drink-desc">
+                                                        <h6 class="text-center">English Breakfast Tea</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="drink-img">
+                                                        <img src="/images/BerryInfusionTea.jpg" alt="cof3" class="w-100"/>
+                                                    </div>
+                                                    <div class="drink-desc">
+                                                        <h6 class="text-center">Berry Infusion</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="drink-img">
+                                                        <img src="/images/EarlGreyTea.jpg" alt="cof1" class="w-100"/>
+                                                    </div>
+                                                    <div class="drink-desc">
+                                                        <h6 class="text-center">Earl Grey Tea</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="food" class="container tab-pane fade">
+                        <form>
+                            <div class="mb-3 mt-3">
+                                <div class="list-desc">
+                                    <div id="breakfast">
+                                        <h2 class="text-center primarysemi text-brown mt-5 mb-5">Breakfast</h2>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <div class="drink-img">
+                                                        <img src="/images/BritishPorkSausageBap.jpg" alt="cof1" class="w-100"/>
+                                                    </div>
+                                                    <div class="drink-desc">
+                                                        <h6 class="text-center">British Pork Sausage Bap</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="drink-img">
+                                                        <img src="/images/VeganBaconBap.jpg" alt="cof2" class="w-100"/>
+                                                    </div>
+                                                    <div class="drink-desc">
+                                                        <h6 class="text-center">Vegan Bac'n Breakfast Bap</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="drink-img">
+                                                        <img src="/images/Ultimatebreakfastwrap.jpg" alt="cof3" class="w-100"/>
+                                                    </div>
+                                                    <div class="drink-desc">
+                                                        <h6 class="text-center">Ultimate Breakfast Wrap</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="drink-img">
+                                                        <img src="/images/ToastButter.jpg" alt="cof1" class="w-100"/>
+                                                    </div>
+                                                    <div class="drink-desc">
+                                                        <h6 class="text-center">Toast</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="pastries">
+                                        <h2 class="text-center primarysemi text-brown mt-5 mb-5">Muffins, Cakes & Bakes</h2>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <div class="drink-img">
+                                                        <img src="/images/ChocolateOrangeCake.jpg" alt="cof1" class="w-100"/>
+                                                    </div>
+                                                    <div class="drink-desc">
+                                                        <h6 class="text-center">Chocolate & Orange Cake</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="drink-img">
+                                                        <img src="/images/chocolateMuffin.jpg" alt="cof2" class="w-100"/>
+                                                    </div>
+                                                    <div class="drink-desc">
+                                                        <h6 class="text-center">Chocolate Muffin</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="drink-img">
+                                                        <img src="/images/hotCrossChocolateBun.jpg" alt="cof3" class="w-100"/>
+                                                    </div>
+                                                    <div class="drink-desc">
+                                                        <h6 class="text-center">Hot Cross Chocolate Bun</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="drink-img">
+                                                        <img src="/images/lemonDrizzleLoaf.jpg" alt="cof1" class="w-100"/>
+                                                    </div>
+                                                    <div class="drink-desc">
+                                                        <h6 class="text-center">Lemon Drizzle Loaf</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="drink-img">
+                                                        <img src="/images/BlueberryMuffin.jpg" alt="cof1" class="w-100"/>
+                                                    </div>
+                                                    <div class="drink-desc">
+                                                        <h6 class="text-center">Blueberry Muffin</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="toast">
+                                        <h2 class="text-center primarysemi text-brown mt-5 mb-5">Sandwiches & Toasties</h2>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <div class="drink-img">
+                                                        <img src="/images/Vegan Smoky Ham & Cheeze.jpg" alt="cof1" class="w-100"/>
+                                                    </div>
+                                                    <div class="drink-desc">
+                                                        <h6 class="text-center">Vegan Smoky Ham & Cheeze Toastie</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="drink-img">
+                                                        <img src="/images/Ham & Cheese Toastie.png" alt="cof2" class="w-100"/>
+                                                    </div>
+                                                    <div class="drink-desc">
+                                                        <h6 class="text-center">Ham & Cheese Toastie</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="drink-img">
+                                                        <img src="/images/Wiltshire Ham & Cheddar Toastie.jpg" alt="cof3" class="w-100"/>
+                                                    </div>
+                                                    <div class="drink-desc">
+                                                        <h6 class="text-center">coffee Wiltshire Ham & Cheddar Toastie</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="drink-img">
+                                                        <img src="/images/Cheese & Tomato Toastie.jpg" alt="cof1" class="w-100"/>
+                                                    </div>
+                                                    <div class="drink-desc">
+                                                        <h6 class="text-center">Cheese & Tomato Toastie</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="bg-dark">
+            <div class="container">
+                <div class="social row">
+                    <ul class="col-6 p-0">
+                        <li class="d-inline"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li class="d-inline"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="d-inline"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li class="d-inline"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    <ul class="col-6 p-0">
+                        <p><a>Privacy Policy&copy; 2022 by Coffee Shop, LLC</a></p> 
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
